@@ -5,6 +5,7 @@ public class Autojava {
         // первый комментарий
         System.out.println("Первый");
         System.out.println("1123");
+        System.out.println("Проверка связи");
 
         System.out.println(2 + 2);
         System.out.println(2 * 2);
