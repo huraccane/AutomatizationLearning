@@ -18,7 +18,9 @@ public class Autojava {
         System.out.println("2" + 2);
 
         System.out.println("2 + 2 = " + 2 + 2);
+        System.out.println((2 + 2 + 2 + (2 / 2)) / 0.5);
         // write your code here
     }
 }
+
 
