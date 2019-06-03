@@ -2,7 +2,6 @@ public class Autojava {
 
     public static void main(String[] args) {
         System.out.println("Hello,World!");
-        System.out.println("Hello," + "World!");
         // первый комментарий
         System.out.println("Первый");
         System.out.println("1123");
@@ -30,6 +29,8 @@ public class Autojava {
 
         // write your code here
     }
+
 }
+
 
 
