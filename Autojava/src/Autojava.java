@@ -1,36 +1,26 @@
 public class Autojava {
+        public static void main(String[] Args) {
+            hello("Igor");
+            hello("Kris");
 
-    public static void main(String[] args) {
-        System.out.println("Hello,World!");
-        // первый комментарий
-        System.out.println("Первый");
-        System.out.println("1123");
-        System.out.println("Проверка связи");
+            double len = 5;
+            System.out.println("Площадь квадрата со сторонами " + len + " = " + area(len));
+            double a = 5;
+            double b = 4;
+            System.out.println("Площадь прмоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
 
-        System.out.println(2 + 2);
-        System.out.println(2 * 2);
-        System.out.println(2 / 2);
-        System.out.println(2 - 2);
+        }
 
-        System.out.println(1 / 2);
-        System.out.println(1.0 / 2);
-        System.out.println("2" + "2");
-        System.out.println("2" + 2);
+        public static void hello(String somebody) {
+            System.out.println("Hello, " + somebody + "!");
+        }
 
-        System.out.println("2 + 2 = " + 2 + 2);
-        System.out.println((2 + 2 + 2 + (2 / 2)) / 0.5);
-
-        //int l = 8;
-        double l = 8.0;
-        double s = l * l;
-        String somebody = "Площадь квадрата со стороной! ";
-
-        System.out.println(somebody + l + " = " + s);
-
-        // write your code here
-    }
-
-}
-
+        public static double area(double l) {
+            return l * l;
+        }
+            public static double area(double a, double b) {
+                return a * b;
+            }
+        }
 
 
