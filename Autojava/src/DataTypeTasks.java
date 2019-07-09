@@ -1,14 +1,15 @@
 
 public class DataTypeTasks {
     public static void main(String args[]) {
-        test(2);
+        what(2);
         System.out.println(factorial(9));
         int[] array = {1, 44, 56, 76, 3, 8, 90};
         System.out.println(average(array));
-        string(array);
+        int[] array1 = {23,44,3,4,12,33};
+        test(array1);
     }
 
-    public static void test(int a) {                       //четное-нечетное
+    public static void what(int a) {
         if ((a % 2) == 0) {
             System.out.println("число " + a + " четное");
         } else {
@@ -16,7 +17,7 @@ public class DataTypeTasks {
         }
     }
 
-    public static int factorial(int b) {                 //факториал через метод
+    public static int factorial(int b) {
         int res = 1;
         for (int i = 1; i <= b; i++) {
             res *= i;
@@ -24,7 +25,7 @@ public class DataTypeTasks {
         return res;
     }
 
-    public static double average(int[] array) {          //среднее арфиметическое
+    public static double average(int[] array) {
         double sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
@@ -32,7 +33,7 @@ public class DataTypeTasks {
         return sum / array.length;
     }
 
-    public static void string (int[] array) {              //числовой массив в стороковый
+    public static void test (int[] array) {
         String sum = "";
         for (int i = 0; i < array.length; i++) {
             sum += array[i];

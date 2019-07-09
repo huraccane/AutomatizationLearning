@@ -53,16 +53,16 @@ public class DataTypeTasks3<sout> {
         while (a >= 10);
     }
 
-    public static void random1() {                                   //ручной ввод рандома для массива foreach
+    public static void random1() {                                   //ручной ввод рандома для массива
         int[] array = {1, 545, 6, 1, 6, 5, 7, 456, 2, 2};
         for (int x : array) {
             if (x == 5) {
-                System.out.println(x + " - Искомое значение");
+                System.out.println(x);
             }
         }
     }
 
-    public static void random2() {                                   //автоввод рандома для массива for
+    public static void random2() {                                   //автоввод рандома для массива
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) ((Math.random() * 10));
